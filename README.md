@@ -44,11 +44,11 @@ For live runs, copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.tom
    git add app.py personas.py llm.py analysis.py data requirements.txt .streamlit/secrets.toml.example .gitignore README.md
    git commit -m "Build Echo for Investors"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/echo-for-investors.git
+   git remote add origin https://github.com/shahanvik-tech/echo-for-investors.git
    git push -u origin main
    ```
 
-   Replace `YOUR_USERNAME` with your GitHub username. The `.gitignore` excludes `.streamlit/secrets.toml`; check `git status` before pushing to ensure no key is staged.
+   The `.gitignore` excludes `.streamlit/secrets.toml`; check `git status` before pushing to ensure no key is staged.
 3. Sign in at [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub, choose **Create app**, then **Yup, I have an app**. Select the repo, `main` branch, and `app.py` as the entrypoint.
 4. To enable live runs, open **Advanced settings** during deployment and paste `OPENAI_API_KEY = "your-real-key"` into **Secrets**. You can also add it later in the app's **Settings → Secrets**. Save, then rerun the app with demo mode off.
 5. Deploy. Without a secret, the app still works in demo mode. When you push changes to the repo, Community Cloud updates the app.
