@@ -7,7 +7,7 @@ from llm import run_focus_group
 from personas import load_personas, filter_personas
 
 st.set_page_config(page_title="Echo for Investors", page_icon="◉", layout="wide")
-st.markdown("<style>.block-container{max-width:1250px;padding-top:2rem}h1,h2,h3{color:#15354d}div[data-testid='stMetric']{background:#f1f6f8;padding:1rem;border-radius:12px}</style>", unsafe_allow_html=True)
+st.markdown("<style>.block-container{max-width:1250px;padding-top:2rem}h1,h2,h3{color:#15354d}div[data-testid='stMetric']{background:#f1f6f8;padding:1rem;border-radius:12px}div[data-testid='stMetric'] *{color:#15354d!important}</style>", unsafe_allow_html=True)
 
 SCENARIOS = {
     "Robo-advisor fee change": {"company":"Harbor Bank Guided Investing","product_type":"robo-advisor","context":"The annual advisory fee drops from 0.35% to 0.25%, while a new $3 monthly account fee applies to every account. Investments retain market risk; the account fee is charged regardless of balance.","A":"Get professional investing for just 0.25% a year, down from 0.35%, plus a simple $3 monthly account fee. Build your future with automated portfolios and easy monitoring.","B":"Our advisory fee falls to 0.25% annually, and a $3 monthly account fee is added. At a $10,000 balance, that is about $61 per year in combined fees versus $35 before. Review the total cost for your balance before deciding."},
