@@ -1,0 +1,870 @@
+[
+  {
+    "id": "P01",
+    "name": "Maya Torres",
+    "age": 24,
+    "age_band": "18-29",
+    "occupation": "Retail associate",
+    "annual_income": 31000,
+    "income_band": "low",
+    "net_worth": 2500,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "Roth IRA"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "emergency fund",
+      "first investments"
+    ],
+    "pain_points": [
+      "irregular hours",
+      "small balances"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Maya started a Roth IRA with small automatic deposits. She checks fees carefully because her emergency fund is still thin.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P02",
+    "name": "Ethan Brooks",
+    "age": 28,
+    "age_band": "18-29",
+    "occupation": "Software engineer",
+    "annual_income": 118000,
+    "income_band": "upper-middle",
+    "net_worth": 145000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage",
+      "crypto"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "long-term growth",
+      "home down payment"
+    ],
+    "pain_points": [
+      "tax complexity",
+      "market volatility"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Ethan invests monthly and follows product updates closely. He will try a new feature if its pricing and risks are clear.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P03",
+    "name": "Nia Campbell",
+    "age": 22,
+    "age_band": "18-29",
+    "occupation": "College student",
+    "annual_income": 18000,
+    "income_band": "low",
+    "net_worth": -12000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "none",
+    "accounts_held": [
+      "checking"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "pay debt",
+      "build savings"
+    ],
+    "pain_points": [
+      "student debt",
+      "low cash buffer"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Nia is finishing school while working part time. Investing sounds useful, but she cannot afford surprise charges.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P04",
+    "name": "Luis Rivera",
+    "age": 29,
+    "age_band": "18-29",
+    "occupation": "Warehouse supervisor",
+    "annual_income": 54000,
+    "income_band": "middle",
+    "net_worth": 21000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "401k"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "emergency fund",
+      "retirement"
+    ],
+    "pain_points": [
+      "limited time",
+      "unclear investing terms"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Luis contributes enough to get his employer match. He wants simple explanations before opening another account.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P05",
+    "name": "Chloe Patel",
+    "age": 27,
+    "age_band": "18-29",
+    "occupation": "Freelance designer",
+    "annual_income": 72000,
+    "income_band": "middle",
+    "net_worth": 39000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "Roth IRA",
+      "brokerage",
+      "crypto"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "flexible savings",
+      "wealth growth"
+    ],
+    "pain_points": [
+      "variable income",
+      "app security"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Chloe's income varies by project and she keeps cash for slow months. She likes modern tools but reads security details.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P06",
+    "name": "Jordan Reed",
+    "age": 19,
+    "age_band": "18-29",
+    "occupation": "Food service worker",
+    "annual_income": 22000,
+    "income_band": "low",
+    "net_worth": 1200,
+    "risk_tolerance": "conservative",
+    "investing_experience": "none",
+    "accounts_held": [
+      "checking"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "cash buffer",
+      "avoid fees"
+    ],
+    "pain_points": [
+      "overdrafts",
+      "minimum balances"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Jordan recently opened a first checking account. Monthly fees can consume money needed for rent and transit.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P07",
+    "name": "Avery Kim",
+    "age": 34,
+    "age_band": "30-44",
+    "occupation": "Nurse",
+    "annual_income": 84000,
+    "income_band": "upper-middle",
+    "net_worth": 98000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "Roth IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement",
+      "home purchase"
+    ],
+    "pain_points": [
+      "time pressure",
+      "opaque fees"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Avery invests regularly between hospital shifts. Convenience matters, but recurring fees need a clear payoff.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P08",
+    "name": "Marcus Hill",
+    "age": 42,
+    "age_band": "30-44",
+    "occupation": "Public school teacher",
+    "annual_income": 61000,
+    "income_band": "middle",
+    "net_worth": 87000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "403b",
+      "savings"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "college savings",
+      "retirement"
+    ],
+    "pain_points": [
+      "budget pressure",
+      "risk of losses"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Marcus supports two children and saves through a school plan. He favors predictable costs and straightforward safeguards.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P09",
+    "name": "Priya Shah",
+    "age": 38,
+    "age_band": "30-44",
+    "occupation": "Marketing director",
+    "annual_income": 165000,
+    "income_band": "high",
+    "net_worth": 420000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage",
+      "Roth IRA"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "tax efficiency",
+      "diversification"
+    ],
+    "pain_points": [
+      "fragmented accounts",
+      "tax reporting"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Priya compares investment products against low-cost alternatives. She expects detailed pricing and tax information.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P10",
+    "name": "Sofia Martinez",
+    "age": 31,
+    "age_band": "30-44",
+    "occupation": "Dental assistant",
+    "annual_income": 47000,
+    "income_band": "middle",
+    "net_worth": 18500,
+    "risk_tolerance": "moderate",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "savings"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "emergency fund",
+      "first home"
+    ],
+    "pain_points": [
+      "high rent",
+      "small monthly surplus"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Sofia recently began contributing to a workplace plan. She needs to know exactly how a new fee affects small balances.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P11",
+    "name": "Devin Moore",
+    "age": 44,
+    "age_band": "30-44",
+    "occupation": "Small business owner",
+    "annual_income": 132000,
+    "income_band": "upper-middle",
+    "net_worth": 310000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "SEP IRA",
+      "brokerage",
+      "crypto"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "business liquidity",
+      "long-term growth"
+    ],
+    "pain_points": [
+      "cash flow swings",
+      "account security"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Devin separates business reserves from investments. Fast access and transparent controls matter more than flashy claims.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P12",
+    "name": "Rachel Stein",
+    "age": 36,
+    "age_band": "30-44",
+    "occupation": "Accountant",
+    "annual_income": 98000,
+    "income_band": "upper-middle",
+    "net_worth": 175000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement",
+      "capital preservation"
+    ],
+    "pain_points": [
+      "hidden fees",
+      "complex terms"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Rachel reads fee schedules before changing providers. She values plain math over promotional language.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P13",
+    "name": "Omar Washington",
+    "age": 33,
+    "age_band": "30-44",
+    "occupation": "Delivery driver",
+    "annual_income": 42000,
+    "income_band": "middle",
+    "net_worth": 9500,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "savings"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "emergency fund",
+      "debt payoff"
+    ],
+    "pain_points": [
+      "overdraft risk",
+      "unstable expenses"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Omar's weekly income can fluctuate. He avoids products that might add a fixed bill.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P14",
+    "name": "Hannah Lee",
+    "age": 40,
+    "age_band": "30-44",
+    "occupation": "Attorney",
+    "annual_income": 205000,
+    "income_band": "high",
+    "net_worth": 680000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage",
+      "529"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "education funding",
+      "diversification"
+    ],
+    "pain_points": [
+      "time constraints",
+      "service quality"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Hannah balances a busy practice with family finances. She pays for useful service but expects a measurable benefit.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P15",
+    "name": "Caleb Price",
+    "age": 43,
+    "age_band": "30-44",
+    "occupation": "Electrician",
+    "annual_income": 79000,
+    "income_band": "middle",
+    "net_worth": 124000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "retirement",
+      "home repairs"
+    ],
+    "pain_points": [
+      "market uncertainty",
+      "fee confusion"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Caleb invests steadily and keeps cash for home repairs. He wants the full cost in dollars, not just percentages.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P16",
+    "name": "Diane Foster",
+    "age": 52,
+    "age_band": "45-59",
+    "occupation": "Office manager",
+    "annual_income": 68000,
+    "income_band": "middle",
+    "net_worth": 210000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "IRA"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "retirement readiness",
+      "emergency fund"
+    ],
+    "pain_points": [
+      "late-start anxiety",
+      "fees"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Diane increased retirement contributions after paying off a car. She is cautious about new products that could slow progress.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P17",
+    "name": "Ben Okafor",
+    "age": 48,
+    "age_band": "45-59",
+    "occupation": "IT consultant",
+    "annual_income": 155000,
+    "income_band": "high",
+    "net_worth": 510000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage",
+      "crypto"
+    ],
+    "primary_bank_type": "neobank",
+    "financial_goals": [
+      "growth",
+      "early retirement"
+    ],
+    "pain_points": [
+      "custody risk",
+      "tax reporting"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Ben manages a diversified portfolio and tests financial apps. He expects strong controls and exportable records.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P18",
+    "name": "Gloria Chen",
+    "age": 59,
+    "age_band": "45-59",
+    "occupation": "Pharmacist",
+    "annual_income": 142000,
+    "income_band": "upper-middle",
+    "net_worth": 850000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement income",
+      "health costs"
+    ],
+    "pain_points": [
+      "sequence risk",
+      "complex fees"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Gloria is preparing to reduce work hours. She wants clear downside scenarios before switching providers.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P19",
+    "name": "Tariq Ali",
+    "age": 45,
+    "age_band": "45-59",
+    "occupation": "Hotel manager",
+    "annual_income": 73000,
+    "income_band": "middle",
+    "net_worth": 113000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "savings"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement",
+      "children's education"
+    ],
+    "pain_points": [
+      "limited time",
+      "unclear benefits"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Tariq has a workplace account but rarely reviews it. A product must explain its benefit quickly and concretely.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P20",
+    "name": "Elena Garcia",
+    "age": 55,
+    "age_band": "45-59",
+    "occupation": "Home health aide",
+    "annual_income": 39000,
+    "income_band": "low",
+    "net_worth": 16000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "none",
+    "accounts_held": [
+      "checking",
+      "savings"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "emergency savings",
+      "avoid debt"
+    ],
+    "pain_points": [
+      "medical costs",
+      "low surplus"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Elena is focused on bills and a small cash reserve. She is wary of unfamiliar investments and recurring charges.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P21",
+    "name": "Noah Williams",
+    "age": 50,
+    "age_band": "45-59",
+    "occupation": "Sales manager",
+    "annual_income": 112000,
+    "income_band": "upper-middle",
+    "net_worth": 360000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement growth",
+      "home equity"
+    ],
+    "pain_points": [
+      "market swings",
+      "service delays"
+    ],
+    "tech_comfort": "high",
+    "backstory": "Noah tracks performance but dislikes waiting for support. He will compare any new offer with his current broker.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P22",
+    "name": "Fatima Hassan",
+    "age": 57,
+    "age_band": "45-59",
+    "occupation": "Administrative assistant",
+    "annual_income": 48000,
+    "income_band": "middle",
+    "net_worth": 72000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "401k"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "retirement",
+      "reduce debt"
+    ],
+    "pain_points": [
+      "small retirement balance",
+      "fees"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Fatima began saving later than she hoped. She needs assurance that costs will not overwhelm returns.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P23",
+    "name": "Wesley Grant",
+    "age": 46,
+    "age_band": "45-59",
+    "occupation": "Truck driver",
+    "annual_income": 88000,
+    "income_band": "upper-middle",
+    "net_worth": 190000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "Roth IRA"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement",
+      "emergency fund"
+    ],
+    "pain_points": [
+      "travel access",
+      "hard-to-read terms"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Wesley handles finances from the road. Reliability and easy account access are central to his decisions.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P24",
+    "name": "Irene Nguyen",
+    "age": 63,
+    "age_band": "60+",
+    "occupation": "Retired librarian",
+    "annual_income": 43000,
+    "income_band": "middle",
+    "net_worth": 490000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "stable income",
+      "preserve principal"
+    ],
+    "pain_points": [
+      "scams",
+      "withdrawal timing"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Irene draws from savings to supplement Social Security. She prioritizes capital preservation and human support.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P25",
+    "name": "Robert Ellis",
+    "age": 71,
+    "age_band": "60+",
+    "occupation": "Retired engineer",
+    "annual_income": 92000,
+    "income_band": "upper-middle",
+    "net_worth": 1350000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "income",
+      "estate planning"
+    ],
+    "pain_points": [
+      "taxes",
+      "account complexity"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Robert reviews his investments quarterly. He asks how a feature affects withdrawals and taxes.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P26",
+    "name": "Lillian Brown",
+    "age": 68,
+    "age_band": "60+",
+    "occupation": "Retired cashier",
+    "annual_income": 27000,
+    "income_band": "low",
+    "net_worth": 38000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "savings"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "pay bills",
+      "avoid fees"
+    ],
+    "pain_points": [
+      "fixed income",
+      "low digital confidence"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Lillian lives mostly on Social Security and a small pension. A monthly charge needs a very clear benefit.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P27",
+    "name": "Samir Desai",
+    "age": 61,
+    "age_band": "60+",
+    "occupation": "Restaurant owner",
+    "annual_income": 125000,
+    "income_band": "upper-middle",
+    "net_worth": 720000,
+    "risk_tolerance": "aggressive",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "SEP IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "retirement",
+      "liquidity"
+    ],
+    "pain_points": [
+      "business volatility",
+      "service responsiveness"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Samir is planning succession for his business. He likes flexibility but will scrutinize lockups and fees.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P28",
+    "name": "Patricia Johnson",
+    "age": 74,
+    "age_band": "60+",
+    "occupation": "Retired teacher",
+    "annual_income": 56000,
+    "income_band": "middle",
+    "net_worth": 330000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "intermediate",
+    "accounts_held": [
+      "checking",
+      "403b",
+      "IRA"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "steady income",
+      "health care"
+    ],
+    "pain_points": [
+      "fraud",
+      "complex interfaces"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Patricia budgets carefully for medical costs. She prefers clear written terms and accessible support.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P29",
+    "name": "Michael Davis",
+    "age": 66,
+    "age_band": "60+",
+    "occupation": "Part-time consultant",
+    "annual_income": 105000,
+    "income_band": "upper-middle",
+    "net_worth": 940000,
+    "risk_tolerance": "moderate",
+    "investing_experience": "advanced",
+    "accounts_held": [
+      "checking",
+      "IRA",
+      "brokerage"
+    ],
+    "primary_bank_type": "big bank",
+    "financial_goals": [
+      "tax-efficient income",
+      "travel"
+    ],
+    "pain_points": [
+      "fragmented statements",
+      "fees"
+    ],
+    "tech_comfort": "medium",
+    "backstory": "Michael still earns consulting income while drawing on retirement accounts. He compares new offers with established low-cost choices.",
+    "synthetic_illustrative": true
+  },
+  {
+    "id": "P30",
+    "name": "Yvonne Scott",
+    "age": 62,
+    "age_band": "60+",
+    "occupation": "Manufacturing worker",
+    "annual_income": 51000,
+    "income_band": "middle",
+    "net_worth": 115000,
+    "risk_tolerance": "conservative",
+    "investing_experience": "beginner",
+    "accounts_held": [
+      "checking",
+      "401k",
+      "savings"
+    ],
+    "primary_bank_type": "credit union",
+    "financial_goals": [
+      "retirement transition",
+      "emergency fund"
+    ],
+    "pain_points": [
+      "job uncertainty",
+      "loss aversion"
+    ],
+    "tech_comfort": "low",
+    "backstory": "Yvonne hopes to retire within several years. She needs predictable costs and a simple way to get help.",
+    "synthetic_illustrative": true
+  }
+]
